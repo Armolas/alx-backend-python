@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+'''zoom array'''
 from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    '''returns a list of zoomed array'''
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
