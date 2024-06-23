@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''async comprehension'''
 import asyncio
-from 0_async_generator import async_generator
+async_generator = __import__('0_async_generator').async_generator
 
 
 async def async_comprehension():
